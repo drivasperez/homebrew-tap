@@ -1,25 +1,25 @@
 class Dwm < Formula
   desc "A git/jj worktree manager"
   homepage "dwm.drpz.xyz"
-  version "0.1.1"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/drivasperez/dwm/releases/download/v0.1.1/dwm-aarch64-apple-darwin.tar.xz"
-      sha256 "97e08061b180a6c04cb9d1fc16e9e12e2d22a4dc82c9cb928fea5080a8f5b1d0"
+      url "https://github.com/drivasperez/dwm/releases/download/v0.2.0/dwm-aarch64-apple-darwin.tar.xz"
+      sha256 "e8651cbae7b382c642c49714d4071f69dbeec4a31ff49f3520e2f439c1a5897c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/drivasperez/dwm/releases/download/v0.1.1/dwm-x86_64-apple-darwin.tar.xz"
-      sha256 "bd5a84fcd903806b100ac07bb55854b60c4b115642bb461289b7890799dadad2"
+      url "https://github.com/drivasperez/dwm/releases/download/v0.2.0/dwm-x86_64-apple-darwin.tar.xz"
+      sha256 "62425544186fa5863cde344110212542173298c3d843a472d9b9e5352d95304a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/drivasperez/dwm/releases/download/v0.1.1/dwm-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3860ff40e2963e511b5e86854f1980eb3cf1dfcb42547ccc165554710ebd5bb9"
+      url "https://github.com/drivasperez/dwm/releases/download/v0.2.0/dwm-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3a10546fe05d178c31364df61c217454f314b6eb64591248aec50797da1da8b9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/drivasperez/dwm/releases/download/v0.1.1/dwm-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "2ca93e2ea21c3aad6c2558543966bfb544e964687db1b8882fd248b038f18155"
+      url "https://github.com/drivasperez/dwm/releases/download/v0.2.0/dwm-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "18c59dd4ca45f7ab6ea52a22a18479ba0eb62f5ea7515a5c117f381612c1b00f"
     end
   end
 
